@@ -101,12 +101,12 @@ export default function InteractiveMapPage() {
   };
 
   return (
-    <div style={{ backgroundColor: 'white', minHeight: '100vh', padding: '40px' }}>
+    <div style={{ backgroundColor: 'white', width: '100vw', height: '100vh' }}>
       {svgContent ? (
-        <div style={{ position: 'relative' }}>
+        <div style={{ position: 'relative', width: '100%', height: '100%' }}>
           <svg
             width="100%"
-            height="calc(100vh - 80px)"
+            height="100%"
             viewBox="0 0 294.8 413.86"
             style={{ display: 'block' }}
             onClick={handleSvgClick}
@@ -178,7 +178,7 @@ export default function InteractiveMapPage() {
           )}
         </div>
       ) : (
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: 'calc(100vh - 80px)', backgroundColor: 'white', color: '#666' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', backgroundColor: 'white', color: '#666' }}>
           지도 로딩 중...
         </div>
       )}
