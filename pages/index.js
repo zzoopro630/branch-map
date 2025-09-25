@@ -101,7 +101,7 @@ export default function InteractiveMapPage() {
   };
 
   return (
-    <div style={{ backgroundColor: 'transparent', width: '100vw', height: '100vh' }}>
+    <div style={{ backgroundColor: 'white', width: '100vw', height: '100vh' }}>
       {svgContent ? (
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
           <svg
