@@ -1,0 +1,88 @@
+[
+  {
+    "id": "headquarters-group",
+    "name": "퍼스트본사 / 퍼스트직할 / 퍼스트GOAT",
+    "region": "서울 광진",
+    "url": "/branches/goat",
+    "cx": 117.27,
+    "cy": 101.42,
+    "branches": [
+      { "id": "first-bonsa", "name": "퍼스트본사", "region": "서울 광진", "manager": { "name": "김도형", "title": "대표", "phone": "010-2964-2890" } },
+      { "id": "first-jikhal", "name": "퍼스트직할", "region": "서울 광진", "manager": { "name": "이남수", "title": "이사", "phone": "010-7567-2274" } },
+      { "id": "first-goat", "name": "퍼스트GOAT", "region": "서울 광진", "manager": { "name": "김동원", "title": "이사", "phone": "010-9949-2669" } }
+    ]
+  },
+  {
+    "id": "raon-gamdong-group",
+    "name": "퍼스트라온 / 퍼스트감동",
+    "region": "서울 영등포 / 경기 시흥",
+    "url": "/branches/raon",
+    "cx": 82.76,
+    "cy": 113.57,
+    "branches": [
+      { "id": "first-raon", "name": "퍼스트라온", "region": "서울 영등포", "manager": { "name": "김성훈", "title": "이사", "phone": "010-4488-6006" } },
+      { "id": "first-gamdong", "name": "퍼스트감동", "region": "경기 시흥", "manager": { "name": "김소영", "title": "이사", "phone": "010-8889-3541" } }
+    ]
+  },
+  {
+    "id": "castle-dal-group",
+    "name": "퍼스트캐슬 / 퍼스트달",
+    "region": "경기 안양·의왕 / 경기 수원·동탄",
+    "url": "/branches/castle",
+    "cx": 111.29,
+    "cy": 131.05,
+    "branches": [
+      { "id": "first-castle", "name": "퍼스트캐슬", "region": "경기 안양·의왕", "manager": { "name": "라현준", "title": "이사", "phone": "010-7752-1021" } },
+      { "id": "first-dal", "name": "퍼스트달", "region": "경기 수원·동탄", "manager": { "name": "이상훈", "title": "이사", "phone": "010-4720-7508" } }
+    ]
+  },
+  {
+    "id": "dawon-daol-haesung-group",
+    "name": "퍼스트다원 / 퍼스트다올 / 퍼스트해성(원주)",
+    "region": "경기 남양주 / 경기 이천 / 강원 원주",
+    "url": "/branches/dawon",
+    "cx": 155.6,
+    "cy": 108.31,
+    "branches": [
+      { "id": "first-dawon", "name": "퍼스트다원", "region": "경기 남양주", "manager": { "name": "권요한", "title": "이사", "phone": "010-4005-9269" } },
+      { "id": "first-daol", "name": "퍼스트다올", "region": "경기 이천", "manager": { "name": "남궁금선", "title": "이사", "phone": "010-5262-1956" } },
+      { "id": "first-haesung-wonju", "name": "퍼스트해성(원주)", "region": "강원 원주", "manager": { "name": "이승수", "title": "이사", "phone": "010-9183-3651" } }
+    ]
+  },
+  {
+    "id": "first-haesung-gangneung",
+    "name": "퍼스트해성(강릉)",
+    "region": "강원 강릉",
+    "url": "/branches/haesung",
+    "cx": 199.31,
+    "cy": 82.77,
+    "manager": { "name": "이승수", "title": "이사", "phone": "010-9183-3651" }
+  },
+  {
+    "id": "first-mir",
+    "name": "퍼스트미르",
+    "region": "세종",
+    "url": "/branches/mir",
+    "cx": 136.45,
+    "cy": 177.91,
+    "manager": { "name": "임배성", "title": "이사", "phone": "010-3177-1515" }
+  },
+  {
+    "id": "first-europe",
+    "name": "퍼스트유럽",
+    "region": "부산 부산진",
+    "url": "/branches/europe",
+    "cx": 242.4,
+    "cy": 269.5,
+    "manager": { "name": "변종문", "title": "이사", "phone": "010-7767-2966" }
+  },
+  {
+    "id": "first-hyeyum",
+    "name": "퍼스트혜윰",
+    "region": "제주",
+    "url": "/branches/hyeyum",
+    "cx": 120.31,
+    "cy": 395.15,
+    "manager": { "name": "김종우", "title": "이사", "phone": "010-9458-3636" }
+  }
+]
