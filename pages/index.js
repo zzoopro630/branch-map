@@ -101,7 +101,7 @@ export default function InteractiveMapPage() {
   };
 
   return (
-    <div style={{ backgroundColor: 'white', width: '100vw', height: '100vh' }}>
+    <div style={{ backgroundColor: 'transparent', width: '100vw', height: '100vh' }}>
       {svgContent ? (
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
           <svg
@@ -130,9 +130,9 @@ export default function InteractiveMapPage() {
                 <circle className="marker-dot" cx={marker.cx} cy={marker.cy} r={8} />
               </g>
             ))}
-            <foreignObject x="10" y="140" width="100" height="240">
+            {/* <foreignObject x="10" y="140" width="100" height="240">
               <div dangerouslySetInnerHTML={{ __html: listHTML }} />
-            </foreignObject>
+            </foreignObject> */}
           </svg>
 
           {selectedBranch && (
@@ -172,7 +172,7 @@ export default function InteractiveMapPage() {
                     </div>
                   )}
                 </div>
-                {popupBranch.url && <div style={{ display: 'flex', justifyContent: 'flex-end' }}><button onClick={() => { window.open(popupBranch.url, '_top'); closePopup(); }} style={{ padding: '10px 20px', border: 'none', backgroundColor: '#304d83', color: 'white', borderRadius: '6px', cursor: 'pointer', fontSize: '14px', fontWeight: 'bold' }}>{popupBranch.branches ? '대표 지사 방문' : '지사 방문하기'}</button></div>}
+                
               </div>
             </div>
           )}
